@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck norris random joke</title>
+    <link rel="stylesheet" href="./css/styling.css">
+    <link href="http://fonts.cdnfonts.com/css/chuck-norris" rel="stylesheet">
+     <!--style to transform text in an arc -->
+     <style type=text/css>
+        /* apply the translate and rotate transformation
+           for our text to look curved  */
+
+        .G1 {
+            transform: translate(20px, 85px) rotate(-30deg);
+        }
+  
+        .e1 {
+            transform: translate(13px, 60px) rotate(-25deg);
+        }
+  
+        .e2 {
+            transform: translate(6px, 40px) rotate(-20deg);
+        }
+  
+        .k1 {
+            transform: translate(3px, 23px) rotate(-15deg);
+        }
+  
+        .s1 {
+            transform: translate(2px, 14px) rotate(-10deg);
+        }
+  
+        .f {
+            transform: translate(1px, 8px) rotate(-5deg);
+        }
+  
+        .o {
+            transform: translate(0px, 5px) rotate(0deg);
+        }
+  
+        .r {
+            transform: translate(-1px, 8px) rotate(5deg);
+        }
+  
+        .G2 {
+            transform: translate(-2px, 14px) rotate(10deg);
+        }
+  
+        .e3 {
+            transform: translate(-3px, 25px) rotate(15deg);
+        }
+  
+        .e4 {
+            transform: translate(-6px, 40px) rotate(20deg);
+        }
+  
+        .k2 {
+            transform: translate(-14px, 60px) rotate(25deg);
+        }
+  
+        .s2 {
+            transform: translate(-20px, 80px) rotate(30deg);
+        }
+        
+        /* an inline-block element is placed as an inline
+         element (on the same line as adjacent content), 
+         but it behaves like a block element  */
+  
+        span {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center; padding-top: 150px;
+                font-size: 40px; color: black;
+                font-family: 'Chuck Norris', sans-serif;">
+  
+        <!-- declare all the characters of text 
+            one-by-one, inside span tags -->
+            <span class="G1">C</span>
+            <span class="e1">h</span>
+            <span class="e2">u</span>
+            <span class="k1">c</span>
+            <span class="s1">k</span>
+            <span class="f"> </span>
+            <span class="o">N</span>
+            <span class="r">.</span>
+            <span class="G2"> </span>
+            <span class="e3">G</span>
+            <span class="e4">a</span>
+            <span class="k2">g</span>
+            <span class="s2">s</span>
+    </div>
+    <div class="centerDiv">
+        <img src="https://www.clipartmax.com/png/full/171-1718006_chuck-norris-by-normantweeter-clipartlook-chuck-norris-cartoon-face.png" width="200px">
+
+        <div class="jokes-container">
+            <p class="joke"></p>
+            <small class="text-muted">Laugh or else Chuck will find you. :)</small>
+        </div>
+        <button class="btn" onclick="getJoke()">Random Joke Generator</button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
+
