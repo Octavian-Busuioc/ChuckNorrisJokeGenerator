@@ -1,11 +1,11 @@
 body{
-    background-image: url("https://wallpapercave.com/wp/Aylbh1s.jpg");
-    height: 650px;
+    background-image: url("../img/star-wars-background.jpg");
+    height: 960px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
 }
+
 
 .centerDiv{
       width:200px;
@@ -20,9 +20,11 @@ body{
 .jokes-container{
     padding: 25px;
     box-shadow: 0 5px 12px rgba(0,0,0,0.4);
-    background-color: #fff;
-    color:#333;
-    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color:black;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
 }
 .btn{
     text-align: center;

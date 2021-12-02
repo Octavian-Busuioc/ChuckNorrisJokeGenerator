@@ -74,10 +74,14 @@
     </style>
 </head>
 <body>
+   
     <div style="text-align: center; padding-top: 150px;
                 font-size: 40px; color: black;
-                font-family: 'Chuck Norris', sans-serif;">
-  
+                font-family: 'Chuck Norris', sans-serif;
+                background-image: url('img/chuck-riding-machine.png');
+                background-size: cover;
+                height: 770px;">
+    
         <!-- declare all the characters of text 
             one-by-one, inside span tags -->
             <span class="G1">C</span>
@@ -95,7 +99,8 @@
             <span class="s2">s</span>
     </div>
     <div class="centerDiv">
-        <img src="https://www.clipartmax.com/png/full/171-1718006_chuck-norris-by-normantweeter-clipartlook-chuck-norris-cartoon-face.png" width="200px">
+        
+        <img src="img/chuck_norris.png" width="200px">
 
         <div class="jokes-container">
             <p class="joke"></p>
@@ -103,6 +108,7 @@
         </div>
         <button class="btn" onclick="getJoke()">Random Joke Generator</button>
     </div>
+
     <script src="./main.js"></script>
 </body>
 </html>
