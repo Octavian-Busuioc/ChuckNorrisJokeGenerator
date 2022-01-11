@@ -1,3 +1,158 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 120vh;
+}
+
+#container7 {
+  margin-bottom: 40px;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  background: #b6adad;
+  border-radius: 20px;
+  max-width: 800px;
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.25));
+}
+#container7 h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#container7 p:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#container7 p:nth-of-type(3) {
+  margin-left: 10%;
+}
+#container7 #slider {
+  -webkit-appearance: none;
+  margin-left: 10%;
+  width: 80%;
+  height: 7px;
+  outline: none;
+  border-radius: 3px;
+}
+#container7 #slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background-image: url(/img/slider-cursor.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -18px;
+  cursor: pointer;
+  z-index: 3;
+  position: relative;
+}
+#container7 #sliderTwo {
+  -webkit-appearance: none;
+  margin-left: 10%;
+  width: 80%;
+  height: 7px;
+  outline: none;
+  border-radius: 3px;
+}
+#container7 #sliderTwo::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background-image: url(/img/slider-cursor.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -18px;
+  cursor: pointer;
+  z-index: 3;
+  position: relative;
+}
+#container7 #sliderThree {
+  -webkit-appearance: none;
+  margin-left: 10%;
+  width: 80%;
+  height: 7px;
+  outline: none;
+  border-radius: 3px;
+}
+#container7 #sliderThree::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background-image: url(/img/slider-cursor.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -18px;
+  cursor: pointer;
+  z-index: 3;
+  position: relative;
+}
+#container7 #sliderFour {
+  -webkit-appearance: none;
+  margin-left: 10%;
+  width: 80%;
+  height: 7px;
+  outline: none;
+  border-radius: 3px;
+}
+#container7 #sliderFour::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background-image: url(/img/slider-cursor.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -18px;
+  cursor: pointer;
+  z-index: 3;
+  position: relative;
+}
+#container7 #sliderFive {
+  -webkit-appearance: none;
+  margin-left: 10%;
+  width: 80%;
+  height: 7px;
+  outline: none;
+  border-radius: 3px;
+}
+#container7 #sliderFive::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background-image: url(/img/slider-cursor.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -18px;
+  cursor: pointer;
+  z-index: 3;
+  position: relative;
+}
+#container7 #sliderSix {
+  -webkit-appearance: none;
+  margin-left: 10%;
+  width: 80%;
+  height: 7px;
+  outline: none;
+  border-radius: 3px;
+}
+#container7 #sliderSix::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background-image: url(/img/slider-cursor.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -18px;
+  cursor: pointer;
+  z-index: 3;
+  position: relative;
+}
+
 body {
   background-image: url("../img/star-wars-background.jpg");
   height: 960px;
@@ -6,13 +161,75 @@ body {
   position: relative;
 }
 
+/* style to transform text in an arc */
+/* apply the translate and rotate transformation
+          for our text to look curved  */
+.G1 {
+  transform: translate(20px, 85px) rotate(-30deg);
+}
+
+.e1 {
+  transform: translate(13px, 60px) rotate(-25deg);
+}
+
+.e2 {
+  transform: translate(6px, 40px) rotate(-20deg);
+}
+
+.k1 {
+  transform: translate(3px, 23px) rotate(-15deg);
+}
+
+.s1 {
+  transform: translate(2px, 14px) rotate(-10deg);
+}
+
+.f {
+  transform: translate(1px, 8px) rotate(-5deg);
+}
+
+.o {
+  transform: translate(0px, 5px) rotate(0deg);
+}
+
+.r {
+  transform: translate(-1px, 8px) rotate(5deg);
+}
+
+.G2 {
+  transform: translate(-2px, 14px) rotate(10deg);
+}
+
+.e3 {
+  transform: translate(-3px, 25px) rotate(15deg);
+}
+
+.e4 {
+  transform: translate(-6px, 40px) rotate(20deg);
+}
+
+.k2 {
+  transform: translate(-14px, 60px) rotate(25deg);
+}
+
+.s2 {
+  transform: translate(-20px, 80px) rotate(30deg);
+}
+
+/* an inline-block element is placed as an inline
+element (on the same line as adjacent content), 
+ but it behaves like a block element  */
+span {
+  display: inline-block;
+}
+
 .centerDiv {
   width: 200px;
   height: 200px;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -100px;
+  margin-top: -180px;
   margin-left: -100px;
 }
 
@@ -30,6 +247,89 @@ body {
   text-align: center;
   margin: auto;
   display: flex;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #50507a;
+  color: white;
+  text-align: center;
+}
+.footer a {
+  position: relative;
+  bottom: -12px;
+  text-decoration: none;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+.footer a.sec:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
+  transform: translateX(0);
+  transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+  opacity: 1;
+  transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+  opacity: 0;
+  transform: translateX(0);
+}
+
+.container {
+  position: absolute;
+  left: 540px;
+  top: 210px;
+  transform: rotate(100deg);
+}
+
+.container2 {
+  position: absolute;
+  left: 645px;
+  top: 200px;
+  transform: rotate(-45deg);
+}
+
+.container3 {
+  position: absolute;
+  left: 725px;
+  top: 145px;
+  transform: rotate(-150deg);
+}
+
+.container4 {
+  position: absolute;
+  left: 795px;
+  top: 180px;
+  transform: rotate(40deg);
+}
+
+.container5 {
+  position: absolute;
+  left: 855px;
+  top: 165px;
+  transform: rotate(-175deg);
+}
+
+.container6 {
+  position: absolute;
+  left: 910px;
+  top: 240px;
+  transform: rotate(45deg);
 }
 
 /*# sourceMappingURL=styling.css.map */
